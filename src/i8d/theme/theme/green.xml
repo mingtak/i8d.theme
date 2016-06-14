@@ -5,10 +5,9 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <rules css:if-content="#visual-portal-wrapper">
+  <rules css:if-content="#visual-portal-wrapper">
 
-        <theme href="green.html" />
-
+    <theme href="green.html" />
 
     <!-- Replace title with Plone's page title  -->
     <replace
@@ -23,19 +22,11 @@
       />
 
     <!-- Copy link, style, meta tags from Plone head -->
-<!--    <before
-      content="/html/head/meta"
-      css:theme-children="html head"
-      /> -->
     <before
       content="/html/head/link | /html/head/styles | /html/head/meta"
       css:theme-children="html head"
       />
 
-<!--
-    <drop content="/html/head/link[@data-bundle = 'plone']"/>
-    <drop content="/html/head/script[@data-bundle = 'plone']"/>
--->
     <!-- merge classes from Plone body with theme body -->
     <merge
       attributes="class"
@@ -49,19 +40,13 @@
       css:theme-children="html head"
       />
 
-
     <!-- LOGO -->
     <copy attributes="href title alt" css:content="#portal-logo" css:theme="a.logo" />
     <copy attributes="src title alt" css:content="#portal-logo img" css:theme="a.logo img" />
 
-
     <!-- PORTAL NAVIGATION -->
     <replace css:content="nav.theme-nav" css:theme="nav"/>
-<!--    <replace
-      css:content-children="#portal-globalnav"
-      css:theme-children="ul#nav"
-      />
--->
+
     <!-- SERVICE EXPLANATION -->
     <replace
       css:theme="div.header-service"
@@ -75,13 +60,6 @@
       css:theme="div.signup a"
       />
 
-    <!-- USER NAME (FOR LOGGED-IN USERS) -->
-<!--    <replace
-      if-not="$is_anonymous"
-      content="//a[@id='user-name']/text()"
-      css:theme-children="div.login a"
-      />
--->
     <!-- USER ACTIONS (FOR LOGGED-IN USERS) -->
     <replace
       if-content="not(//li[@id='anon-personalbar'])"
@@ -129,13 +107,6 @@
       css:content="#plone-contentmenu-workflow .arrowDownAlternative"
       />
 
-    <!-- CONTENT -->
-<!--    <replace
-      css:content="#content"
-      css:theme-children="section.main-container div.container"
-      />
--->
-
     <!-- global_statusmessage -->
     <before css:content-children="#global_statusmessage" css:theme="footer" />
 
@@ -144,7 +115,7 @@
     <!-- script in portal-footer -->
     <after css:theme-children="body" css:content-children="#third-party-code" />
 
-    <!-- FOOTER / 待處理 -->
+    <!-- FOOTER -->
     <replace css:content="footer.footer.bounceInUp.animated" css:theme="footer" />
 
     <!-- Header-container -->
@@ -160,8 +131,7 @@
     <drop css:theme="section.recommend.container"/>
     <drop css:theme="section.latest-blog.container"/>
     <drop css:theme="div.header-left"/>
-<!--    <drop css:content="div#edit-zone" /> -->
-    </rules>
+  </rules>
 
 </rules>
 
