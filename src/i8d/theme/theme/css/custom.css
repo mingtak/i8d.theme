@@ -146,3 +146,11 @@ a {
 	border-top: inherit;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
+
+.plone-toolbar-top-expanded {
+    margin-top: 0px;
+}
+
+body.userrole-manager {
+    margin-top: 60px;
+}
