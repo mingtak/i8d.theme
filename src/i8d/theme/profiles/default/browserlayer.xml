@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="i8d.theme"
+      interface="i8d.theme.interfaces.II8DThemeLayer"
+      />
+</layers>
