@@ -160,8 +160,7 @@
     <drop css:theme="section.recommend.container"/>
     <drop css:theme="section.latest-blog.container"/>
     <drop css:theme="div.header-left"/>
-    <drop css:content="div#edit-zone" />
-
+<!--    <drop css:content="div#edit-zone" /> -->
     </rules>
 
 </rules>
