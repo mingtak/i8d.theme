@@ -2,6 +2,7 @@
 
 .header-container .signup a {
 	border: none;
+        padding: 0px 5px;
 }
 
 table.accountinfo {

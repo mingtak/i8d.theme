@@ -54,12 +54,11 @@
       />
 
     <!-- LOGIN (FOR ANONYMOUS USERS) -->
-    <replace
-      if="$is_anonymous"
-      css:content="#personaltools-login"
-      css:theme="div.signup a"
+<!--    <after
+      css:content="#portal-anontools"
+      css:theme="header.header-container"
       />
-
+-->
     <!-- USER ACTIONS (FOR LOGGED-IN USERS) -->
     <replace
       if-content="not(//li[@id='anon-personalbar'])"
