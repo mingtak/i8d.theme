@@ -155,3 +155,7 @@ a {
 body.userrole-manager {
     margin-top: 60px;
 }
+
+label.horizontal {
+    margin-top: 20px;
+}
