@@ -115,7 +115,7 @@
     <after css:theme-children="body" css:content-children="#third-party-code" />
 
     <!-- FOOTER -->
-    <replace css:content="footer.footer.bounceInUp.animated" css:theme="footer" />
+    <replace css:content="footer.no_animated" css:theme="footer" />
 
     <!-- Header-container -->
     <replace css:content="header.header-container" css:theme="header.header-container" />
