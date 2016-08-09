@@ -1,5 +1,25 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+.products-list .item {
+    padding: 10px;
+}
+
+.products-list .product-name a {
+    font-size: 20px;
+}
+
+.products-list .product-shop p {
+    font-size: 1.25em;
+}
+
+.products-list .product-image {
+    width: 25%;
+}
+
+.products-list .product-shop {
+    width: 72%;
+}
+
 .product-overview, .std {
     font-size: 1.2em;
 }
@@ -207,3 +227,6 @@ div.blog_entry-header-inner h2 {
     font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 
+.products-list .product-shop p {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
