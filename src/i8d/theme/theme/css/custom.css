@@ -191,42 +191,10 @@ label.horizontal {
 
 
 /* font-family */
-.entry-content {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;   
-}
-
-.page-title h1, .page-title h2 {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.category-title h1 {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.newsletter input[type="email"] {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-div.blog_entry-header-inner h2 {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.blog_entry footer span {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.product-overview {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.std {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.footer {
-    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
-}
-
-.products-list .product-shop p {
+.entry-content, .page-title h1, .page-title h2,
+.category-title h1, .newsletter input[type="email"],
+div.blog_entry-header-inner h2, .blog_entry footer span,
+.product-overview, .std, .footer, .products-list .product-shop p
+{
     font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
