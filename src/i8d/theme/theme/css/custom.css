@@ -194,7 +194,8 @@ label.horizontal {
 .entry-content, .page-title h1, .page-title h2,
 .category-title h1, .newsletter input[type="email"],
 div.blog_entry-header-inner h2, .blog_entry footer span,
-.product-overview, .std, .footer, .products-list .product-shop p
+.product-overview, .std, .footer, .products-list .product-shop p,
+label.pages
 {
     font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
