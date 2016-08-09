@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+.product-overview, .std {
+    font-size: 1.2em;
+}
+
+.product-view .short-description h2  {
+    font-size:1.25em;
+}
+
+.entry-content {
+    font-size: 1.2em;
+}
+
 .header-container .signup a {
 	border: none;
         padding: 0px 5px;
@@ -51,7 +63,6 @@ input.input-text, select, textarea {
 
 .page-title h1, .page-title h2 {
 	color: #000;
-	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	margin-top: 5px;
 	padding: 0;
@@ -60,7 +71,6 @@ input.input-text, select, textarea {
 
 .category-title h1 {
         color: #000;
-        font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
         font-size: 24px;
         margin-top: 5px;
         padding: 0;
@@ -131,7 +141,6 @@ a {
         border: none;
         padding-left: 10px;
         font-size: 13px;
-         font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
         border: none;
         margin: 0 10px 0px 0;
 }
@@ -159,3 +168,42 @@ body.userrole-manager {
 label.horizontal {
     margin-top: 20px;
 }
+
+
+/* font-family */
+.entry-content {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;   
+}
+
+.page-title h1, .page-title h2 {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.category-title h1 {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.newsletter input[type="email"] {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+div.blog_entry-header-inner h2 {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.blog_entry footer span {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.product-overview {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.std {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+}
+
