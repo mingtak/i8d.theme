@@ -1,5 +1,67 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+body {
+    font-size:14px;
+}
+
+.footer-middle h4, .product-tabs a  {
+    font-size: 16px;
+}
+
+.footer a {
+    font-size: 14px;
+}
+
+article .entry-content {
+    font-size: 1.1em;
+}
+
+#nav > li > a {
+    font-size: 16px;
+}
+
+.side-nav-categories .block-title {
+    background: #eb0;
+}
+
+.recommend.container {
+    margin: 5px auto;
+}
+
+.img-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+.img-src{
+    -webkit-transform: scale(.9);
+    -webkit-transition: 1s;}
+  .img-src:hover{
+    -webkit-transform: scale(1);
+}
+
+.blog-btn {
+    background:#fe8;
+}
+
+.sidebar-title {
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+
+.product-sibebar-banner img {
+    margin:5px 0;
+}
+
+.rhs-container {
+    overflow: hidden;
+}
+.rhs-img{
+    -webkit-transform: scale(.9);
+    -webkit-transition: 1s;}
+  .rhs-img:hover{
+    -webkit-transform: scale(1);
+}
+
 .products-list .item {
     padding: 10px;
 }
@@ -189,13 +251,75 @@ label.horizontal {
     margin-top: 20px;
 }
 
+i.link-https:after {
+    content: initial;
+}
+
+/* background color for blue */
+.search-btn-bg {
+    background-color: #090;
+}
+.mini-cart .actions .view-cart, .new-label {
+    background: #090;
+}
+
+.footer-top {
+    background-color: #047;
+}
 
 /* font-family */
 body, .entry-content, .page-title h1, .page-title h2,
 .category-title h1, .newsletter input[type="email"],
 div.blog_entry-header-inner h2, .blog_entry footer span,
 .product-overview, .std, .footer, .products-list .product-shop p,
-label.pages
+label.pages, .delivery h3, .header-container .login,
+.header-container .or, .header-container .signup,
+.header-top .welcome-msg, .toplinks, .search-btn-bg,
+.mini-cart .basket a, .top-subtotal, .top-cart-content .block-subtitle,
+.mini-cart .actions .btn-checkout, .mini-cart .button.btn-checkout,
+#nav .nav-custom-link .header-nav-dropdown-wrapper p,
+#nav > li > a, #nav ul li a, #nav ul.level0 > li > a,
+.grid12-4 h3, .grid12-4 p, a.btn-button-st,
+#nav ul.level3 > li > a, #nav .nav-custom-link .header-nav-dropdown-wrapper h4.heading,
+.custom-menu .learn_more_btn span, #mobile-menu ul.navmenu .menutop h2,
+ul.topnav li a, ul.topnav ul li a, .header-service,
+.category-products .products.small-list, .category-pro-title span,
+.new-label, .sale-label, .price, .col-item .info .info-inner .item-title a,
+.actions button.button.btn-cart span, .latest-blog .blog-title h2,
+.latest-blog a, .blog-img a.info, .product-view .new-label,
+.product-view .product-name h1, .product-view .short-description h2,
+.product-view .product-shop .add-to-links .link-wishlist,
+.email-friend a, .product-view .product-shop .add-to-box .add-to-cart label,
+.product-view .product-shop .product-options-bottom .add-to-cart label,
+.block .block-title, .side-nav-categories .block-title, .col-sm-88 .learn_more_btn span,
+#magik-verticalmenu .nav-title, #magik-verticalmenu .nav-title span,
+#magik-verticalmenu .verticalmenu.navbar-nav .dropdown-menu div.menu-title, #magik-verticalmenu .verticalmenu.navbar-nav .dropdown-menu .title,
+#magik-verticalmenu .verticalmenu.navbar-nav > li > a,
+#mgkquickview, #mgkquickview1, #mgkquickview2, #mgkquickview3,
+.button, .cat-img-title .cat-heading, .cat-img-title p,
+.page-title h1, .page-title h2, .category-title h1,
+.toolbar .button-list, .toolbar a.button-grid,
+.toolbar span.button-active.button-grid, .toolbar span.button-active.button-list,
+.products-list .product-name a, .products-list .product-shop .desc,
+.products-list .product-shop p, #customer-reviews .page-title h2,
+#customer-reviews .form-list li label, a.button.view-all,
+.box-reviews .form-add h3, .product-tabs li.active a, .product-tabs li.active a:hover,
+.product-tabs a, #product-review-table th, #product-review-table td ,
+.product-options dt label, .box-reviews dt, .data-table, .fraction-slider .slide-subtitle,
+.form-add-tags label, .data-table thead th, .data-table thead td, .data-table tfoot th, .data-table tfoot td, .cart .totals table th, .cart .totals table td,
+.recent-orders .title-buttons strong, .product-view .box-tags .form-add label,
+.availability, .product-brand, .add-to-cart label, .add-to-links span,
+.one-page-checkout .active .step-title h3, .one-page-checkout .step-title h3,
+.one-page-checkout .active .step-title, select#billing-address-select:focus,
+select#shipping-address-select:focus, .one-page-checkout .step-title .number,
+#opc-login input, .header-container .logout, .checkout-progress li, .page-title_multi h2,
+.data-table th, .totals h3, .cart-collaterals h3, #wishlist-table .product-name,
+.account-login strong, .page-not-found h2, .page-not-found h3, .page-not-found .btn-home,
+.newsletter h4, .newsletter input[type="text"], button.subscribe, .footer-middle h4,
+.newsletter-sign-box h3, .newsletter-sign-box h4, .newsletter-sign-box .input-box input,
+.new_title h2, .featured_title h2, .group-select .required
 {
     font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
+
+

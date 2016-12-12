@@ -90,7 +90,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #23527c;
+	color: #65a82b;
 	text-decoration: none;
 }
 ul, ol {
@@ -134,6 +134,7 @@ select {
 	font-weight: 400;
 	font-style: normal;
 }
+
 
 
 
@@ -388,7 +389,7 @@ margin-left: 12px;
  .commentlist li .comment-meta {
     color: #999;
     margin-bottom: .3em;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Noto Sans TC', 微軟正黑體, Georgia, "Times New Roman", Times, serif;
     font-style: italic;
 }
 
@@ -428,7 +429,7 @@ label {
 .header-container .login {
 	float: right;
 	margin-top: 20px;
-	font-family: DIN, Helvetica, Arial, sans-serif
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
 }
 .header-container .login a {
 	color: #333;
@@ -448,12 +449,12 @@ label {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-top: 30px;
-	font-family: DIN, Helvetica, Arial, sans-serif
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
 }
 .header-container .signup {
 	float: right;
 	margin-top: 20px;
-	font-family: DIN, Helvetica, Arial, sans-serif
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
 }
 .header-container .signup a {
 	color: #333;
@@ -469,7 +470,7 @@ label {
 }
 .header-top {
 	padding: 0px 0px 3px 0px;
-	background: #f23534;
+	background: #333;
 }
 .header .logo {
 	vertical-align: middle;
@@ -490,7 +491,7 @@ label {
 	margin: 4px 0px 0px 15px;
 	font-size: 12px;
 	color: #fff;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 /* language &amp; currency */
 .block-language-wrapper {
@@ -527,7 +528,7 @@ a.block-language:focus {
 	margin: 0px 6px 0px 0px;
 }
 .block-language-wrapper .dropdown-menu {
-	border-bottom: 3px solid #f23534;
+	border-bottom: 3px solid #333333;
 	border-radius: 0px;
 	min-width: 0px;
 }
@@ -535,7 +536,7 @@ a.block-language:focus {
 	padding: 3px 10px 3px 10px;
 }
 .block-language-wrapper .dropdown-menu a:hover {
-	color: #f23534;
+	color: #333333;
 	background: none;
 }
 .block-currency-wrapper {
@@ -572,7 +573,7 @@ a.block-currency:focus {
 	margin: 0 6px 0 0;
 }
 .block-currency-wrapper .dropdown-menu {
-	border-bottom: 3px solid #f23534;
+	border-bottom: 3px solid #333333;
 	border-radius: 0;
 	min-width: 0;
 	z-index: 100000;
@@ -581,12 +582,12 @@ a.block-currency:focus {
 	padding: 3px 15px;
 }
 .block-currency-wrapper .dropdown-menu a:hover {
-	color: #f23534;
+	color: #333333;
 	background: none;
 }
 /* Toplink */
 .toplinks {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	line-height: 1.3em;
 	padding: 6px 0 3px 0px;
 }
@@ -662,8 +663,8 @@ a.block-currency:focus {
 	width: 25px;
 }
 .search-btn-bg {
-	background-color: #fed102;
-	border: 1px solid #f3c802;
+	background-color: #333;
+	border: 1px solid #333;
 	border-radius: 0 1px 1px 0;
 	color: #fff;
 	cursor: pointer;
@@ -673,7 +674,7 @@ a.block-currency:focus {
 	padding: 6px 15px;
 	position: absolute;
 	text-transform: uppercase;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	margin-top: -1px;
 	letter-spacing: 1px;
@@ -727,7 +728,7 @@ a.block-currency:focus {
 	text-transform: uppercase;
 }
 .top-cart-contain .product-details .price {
-	color: #f23534;
+	color: #333333;
 	width: auto;
 	float: none;
 	font-weight: normal;
@@ -751,7 +752,7 @@ a.block-currency:focus {
 	color: #fff;
 	background: #f23534;
 	line-height: normal;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 .mini-cart .basket a strong {
@@ -771,7 +772,7 @@ a.block-currency:focus {
 	margin-left: -8px;
 	top: -10px;
 	z-index: 0;
-	color: #f23534
+	color: #f23534;
 }
 .mini-cart .basket a:hover {
 	text-decoration: none;
@@ -830,14 +831,14 @@ div#ajaxconfig_info {
 	text-transform: none;
 	border-bottom: 1px #ddd solid;
 	border-top: 1px #ddd solid;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .top-cart-content .block-subtitle {
 	color: #333;
 	overflow: hidden;
 	padding: 15px;
 	text-align: left;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	background: #f5f5f5;
 	text-transform: none;
@@ -904,7 +905,7 @@ ul#cart-sidebar {
 	color: #fff;
 	font-size: 14px;
 	padding: 8px 12px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-align: left;
 	cursor: pointer;
 	text-decoration: none;
@@ -916,22 +917,22 @@ ul#cart-sidebar {
 	line-height: normal;
 }
 .mini-cart .actions .btn-checkout:hover {
-	background: #0a3151;
-	border: 1px solid #0a3151;
+	background: #333;
+	border: 1px solid #333;
 	color: #fff;
 }
 .mini-cart .actions .view-cart {
-	background: #fed102;
+	background:#65A82B;
 	color: #fff;
 	font-size: 14px;
 	padding: 8px 12px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-align: left;
 	cursor: pointer;
 	text-decoration: none;
 	float: left;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
-	border: 1px solid #fed102;
+	border: 1px solid #598830;
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: normal;
@@ -963,7 +964,7 @@ ul#cart-sidebar {
 	color: #fff;
 	font-size: 11px;
 	padding: 8px 16px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-align: left;
 	cursor: pointer;
 	text-decoration: none;
@@ -1016,7 +1017,7 @@ a.glyphicon-remove:hover, a.glyphicon-pencil:hover {
 nav {
 	position: relative;
 	z-index: 10;
-	background: #0b5ead;
+	background: #65a82b;
 	border-top: 1px #FFFFFF solid;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -1032,7 +1033,7 @@ nav {
 }
 #nav > li > a:hover:nth-child(1), #nav > li > a.active:nth-child(1) {
 	color: #fff;
-	border-bottom: 5px #f23534 solid;
+	border-bottom: 5px #333333 solid;
 	margin-right: 0px;
 	padding-bottom: 13px;
 }
@@ -1047,12 +1048,12 @@ nav {
 }
 #nav > li:hover > a, .vertnav-top li > a:hover {
 	color: #fff;
-	border-bottom: 5px #f23534 solid;
+	border-bottom: 5px #333333 solid;
 	margin-right: 0px;
 	padding-bottom: 13px;
 }
 .cms-index-index #nav #nav-home > a span, #nav > li.active > a span, .vertnav-top li.current > a span {
-	border-right: 1px dashed #3d92e3;
+	border-right: 1px dashed #ABD289;
 	padding: 0px 20px;
 }
 #nav {
@@ -1086,7 +1087,7 @@ nav {
 #nav > li > a > span {
 	display: inline-block;
 	line-height: 18px;
-	border-right: 1px dashed #3d92e3;
+	border-right: 1px dashed #ABD289;
 	padding: 0px 20px;
 }
 
@@ -1149,7 +1150,7 @@ nav {
 	margin: 10px 0;
 	color: #333;
 	line-height: 1.3em;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: normal;
 }
@@ -1288,7 +1289,7 @@ ul.vertnav-top li > a > span > .cat-label {
 #nav > li > a {
 	font-size: 13px;
 	text-transform: uppercase /*1.3333em*/;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	color: #777;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
@@ -1305,7 +1306,7 @@ ul.level1 {
 }
 #nav ul li a {
 	color: #565656;
-	font-family: Arial, Helvetica, sans-seriff;
+	font-family: 'Noto Sans TC', 微軟正黑體, Arial, Helvetica, sans-seriff;
 	font-weight: normal;
 }
 #nav ul li a:hover {
@@ -1334,7 +1335,7 @@ li.level0 > a:hover > span > .pin-bottom:before, #nav li.level0:hover > a > span
 #nav .level0-wrapper, #nav.classic .parent > ul {
 	background: #fff;
 	border-top: none;
-	border-bottom: 5px #0b5ead solid;
+	border-bottom: 5px #65a82b solid;
 	box-shadow: 0 0 20px -5px;
 	padding: 22px 0 0 22px;
 	width: 100%;
@@ -1356,7 +1357,7 @@ li.level0 > a:hover > span > .pin-bottom:before, #nav li.level0:hover > a > span
 }
 .cms-index-index #nav #nav-home > a, #nav > li.active > a, .vertnav-top li.current > a {
 	color: #fff;
-	border-bottom: 5px #f23534 solid;
+	border-bottom: 5px #333333 solid;
 	margin-right: 0px;
 	padding-bottom: 13px;
 }
@@ -1395,7 +1396,7 @@ li.level0 > a:hover > span > .pin-bottom:before, #nav li.level0:hover > a > span
 	letter-spacing: normal;
 	text-transform: none;
 	border-bottom: 1px #ddd dashed;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 #nav .grid13-8 ul.level0 > li {
 	width: 30%;
@@ -1576,14 +1577,14 @@ li.level0 > a:hover > span > .pin-bottom:before, #nav li.level0:hover > a > span
 	text-transform: uppercase;
 	text-align: left;
 	font-weight: bold;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	margin-top: 5px;
 }
 .grid12-4 p {
 	text-align: left;
 	font-weight: normal;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 a.btn-button-st {
@@ -1591,7 +1592,7 @@ a.btn-button-st {
 	color: #333;
 	font-size: 11px;
 	padding: 6px 12px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-align: left;
 	cursor: pointer;
 	text-decoration: none;
@@ -1603,8 +1604,8 @@ a.btn-button-st {
 	margin: 8px 0 15px;
 }
 a.btn-button-st:hover {
-	background: #f23534;
-	border: 1px solid #f23534;
+	background: #333333;
+	border: 1px solid #333333;
 	color: #fff;
 }
 #nav .level0-wrapper .nav-add {
@@ -1721,7 +1722,7 @@ a.btn-button-st:hover {
 	letter-spacing: normal;
 	padding: 6px 0px 6px 10px;
 	text-transform: none;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	border-bottom: 1px #ddd dashed;
 }
 #nav ul.level3 .nav-add div.catimg:before {
@@ -1816,7 +1817,7 @@ a.btn-button-st:hover {
 }
 #nav .nav-custom-link .header-nav-dropdown-wrapper h4.heading {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 0px;
@@ -1838,7 +1839,7 @@ a.btn-button-st:hover {
 	background: #fff;
 	padding: 6px 0;
 	border-top: none;
-	border-bottom: 5px #0b5ead solid;
+	border-bottom: 5px #65a82b solid;
 	box-shadow: 0 0 20px -5px;
 	width: 160px;
 	text-align: left;
@@ -1933,14 +1934,14 @@ a.btn-button-st:hover {
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .custom-menu .learn_more_btn:hover {
-	background: #f23534;
-	border: 1px solid #f23534;
+	background: #333333;
+	border: 1px solid #333333;
 	margin: 10px 8px 0 8px;
 	padding: 9px 10px 9px 10px;
 	color: #FFFFFF;
 }
 .custom-menu .learn_more_btn span {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	padding: 0 8px;
 	font-weight: bold;
@@ -2007,7 +2008,7 @@ nav.sticky {
 	padding: 2px 0 0;
 	background: #fff;
 	width: 99.8%;
-	border-bottom: 5px solid #0b5ead;
+	border-bottom: 5px solid #65a82b;
 }
 #mobile-menu ul.navmenu .menutop {
 	display: inline-block;
@@ -2021,7 +2022,7 @@ nav.sticky {
 	padding: 14px 0px;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 ul.topnav {
 	padding: 0 5px;
@@ -2049,7 +2050,7 @@ ul.topnav li a {
 	color: #333;
 	display: block;
 	text-decoration: none;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	width: 80%;
 	text-transform: uppercase;
 }
@@ -2077,7 +2078,7 @@ ul.topnav ul li a {
 	outline: 0;
 	color: #666;
 	text-transform: none;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	letter-spacing: normal;
 }
 ul.topnav ul ul li a {
@@ -2140,7 +2141,8 @@ ul.topnav em:hover {
 	background: none repeat scroll 0 0 #f8f8f8;
 	padding: 12px 0;
 	color: #666;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
+	letter-spacing: 0.5px;
 	line-height: 1.4em;
 	text-transform: uppercase;
 	border-bottom: 1px #ddd dashed;
@@ -2246,7 +2248,7 @@ ul.topnav em:hover {
 
 .category-products .products.small-list {
 	text-align: left;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	margin-bottom: 20px;
 }
 .category-products .products.small-list div.item {
@@ -2284,6 +2286,7 @@ ul.topnav em:hover {
 	width: 79%;
 	float: left;
 	text-align: left;
+
 	padding: 10px 16px;
 	padding-top: 7px;
 	padding-bottom: 4px;
@@ -2312,7 +2315,7 @@ ul.topnav em:hover {
 .category-pro-title span {
 	color: #000;
 	display: inline-block;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: normal;
@@ -2413,7 +2416,7 @@ ul.topnav em:hover {
 }
 .new-label {
 	font-size: 11px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #fff;
 	background: #ffc60a;
 	text-transform: uppercase;
@@ -2434,7 +2437,7 @@ ul.topnav em:hover {
 }
 .sale-label {
 	font-size: 11px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #fff;
 	background: #F23534;
 	text-transform: uppercase;
@@ -2630,7 +2633,7 @@ ul.topnav em:hover {
 	font-size: 12px;
 	color: #333;
 	white-space: nowrap;
-	font-family: DIN, Helvetica, Arial, sans-serif
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
 }
 .price-box {
 	margin: 3px 0;
@@ -2797,7 +2800,7 @@ small {
 }
 .best-seller-pro {
 	position: relative;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 }
 .featured-pro {
 	display: block;
@@ -2935,7 +2938,7 @@ small {
 }
 .col-item:hover .actions-links {
 	height: 30px;
-	background: #f23534;
+	background: #333333;
 	position: absolute;
 	top: 30%;
 	width: 60%;
@@ -3081,7 +3084,7 @@ small {
 }
 .col-item .info .info-inner .item-title a {
 	text-decoration: none;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #000;
 }
@@ -3100,14 +3103,14 @@ small {
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .col-item:hover .actions button.button.btn-cart {
-	background: #f23534;
-	border: 1px solid #f23534;
+	background: #333333;
+	border: 1px solid #333333;
 	margin: 10px 8px 0 8px;
 	padding: 9px 10px 9px 10px;
 	color: #FFFFFF;
 }
 .actions button.button.btn-cart span {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	padding: 0 8px;
 	font-weight: bold;
@@ -3139,7 +3142,6 @@ small {
 }
 .small-pr-slider .col-item .actions-links .add-to-links a.magik-btn-quickview {
 	font-size: 12px;
-
 	line-height: 20px;
 }
 .small-pr-slider .col-item .actions-links .add-to-links a.link-wishlist {
@@ -3216,7 +3218,7 @@ small {
 }
 
 .blog-btn:hover {
-    background: #0b5ead;
+    background: #65a82b;
     color: #fff;
 }
 
@@ -3249,10 +3251,10 @@ small {
 	border-bottom: 3px solid #e5e5e5;
 }
 .latest-blog .blog-title h2 {
-	border-bottom: 3px solid #df2524;
+	border-bottom: 3px solid #000;
 	color: #fff;
 	display: inline-block;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: normal;
@@ -3260,7 +3262,7 @@ small {
 	padding: 13px 20px 10px 20px;
 	position: relative;
 	text-transform: uppercase;
-	background: #f23534;
+	background: #333333;
 }
 .latest-blog h2 {
 	margin: auto;
@@ -3270,7 +3272,7 @@ small {
 }
 .latest-blog a {
 	color: #333;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0px;
@@ -3322,9 +3324,9 @@ small {
 	display: inline-block;
 	text-decoration: none;
 	padding: 7px 14px;
-	background: #f23534;
+	background: #333333;
 	color: #fff;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	text-transform: uppercase;
@@ -3450,7 +3452,7 @@ small {
 
 .product-view .new-label {
 	font-size: 11px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #fff;
 	background: #ffc60a;
 	text-transform: uppercase;
@@ -3521,14 +3523,14 @@ small {
 	padding-bottom: 12px;
 	letter-spacing: -1px;
 	font-weight: bold;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .product-view .short-description {
 	padding-bottom: 5px;
 	font-size: 13px;
 }
 .product-view .short-description h2 {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	color: #333;
@@ -3547,7 +3549,7 @@ small {
 	text-decoration: none;
 }
 .product-view .product-shop .add-to-box .btn-cart {
-	background: #f23534;
+	background: #333333;
 	color: #fff;
 	font-size: 16px;
 	text-shadow: none;
@@ -3565,7 +3567,7 @@ small {
 	color: #fff;
 }
 .product-view .product-shop .product-options-bottom .btn-cart {
-	background: #f23534;
+	background: #333333;
 	color: #fff;
 	font-size: 16px;
 	text-shadow: none;
@@ -3615,7 +3617,7 @@ small {
 	text-align: center;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 	width: 40px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-size: 11px
 }
@@ -3623,7 +3625,7 @@ small {
 	padding: 12px 0px 12px 7px;
 	height: 40px;
 	width: 40px;
-	color: #f23534;
+	color: #333333;
 	text-align: center;
 }
 .product-view .product-shop .add-to-links .link-compare:before {
@@ -3642,7 +3644,7 @@ small {
 	width: auto;
 }
 .product-view .product-shop .add-to-links .link-compare:hover {
-	color: #f23534;
+	color: #333333;
 	text-align: center;
 	padding: 4px 2px 6px;
 	height: 30px;
@@ -3677,12 +3679,12 @@ small {
 	color: #000;
 	text-align: center;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	padding-right: 0px;
 }
 .email-friend a:hover {
-	color: #f23534;
+	color: #333333;
 	text-align: center;
 }
 .product-view .product-shop .ratings {
@@ -3765,7 +3767,7 @@ small {
 	margin-bottom: 0px;
 	text-align: left;
 	text-transform: uppercase;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .product-view .product-shop .product-options-bottom .add-to-cart label {
 	display: block;
@@ -3773,7 +3775,7 @@ small {
 	margin-bottom: 5px;
 	text-align: left;
 	text-transform: uppercase;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 
 .button-up:hover, .button-up:focus {
@@ -3802,7 +3804,6 @@ small {
 }
 .slider-items-products {
 	position: relative;
-	margin-bottom:40px;
 }
 .slider-items-products .item {
 	text-align: center;
@@ -3865,7 +3866,7 @@ small {
 	line-height: 30px;
 }
 .slider-items-products .owl-buttons a:hover {
-	background: #0b5ead;
+	background: #65a82b;
 	display: block;
 	height: 28px;
 	margin: -22px 0 0;
@@ -3902,7 +3903,7 @@ small {
 }
 .more-views .slider-items-products .owl-buttons a:hover {
 	border: none;
-	background: #f23534;
+	background: #333333;
 }
 .more-views .slider-items-products .owl-buttons .owl-next a:before {
 	font-size: 24px;
@@ -3926,7 +3927,7 @@ small {
 }
 .block .block-title {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin: 0;
 	padding: 8px 10px;
@@ -3977,13 +3978,12 @@ small {
 }
 .side-nav-categories .block-title {
 	color: #fff;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin: 0;
 	padding: 8px 10px;
-	/* background-color: #fff; */
 	font-weight: bold;
-	background: #fed102;
+	background:#65A82B;
 }
 .side-nav-categories .block-title:before {
 	content: '\f0c9';
@@ -4293,7 +4293,7 @@ ul#magicat li .open-close, .block-layered-nav dt .toggleBtn {
 	font-weight: 900;
 }
 .block-tags .actions a.view-all:hover {
-	color: #f23534;
+	color: #333333;
 }
 .sidebar .link-cart:hover, .sidebar .link-wishlist:hover, .sidebar .link-reorder:hover, .sidebar .link-compare:hover, .sidebar .link-cart:focus, .sidebar .link-wishlist:focus, .sidebar .link-reorder:focus, .sidebar .link-compare:focus, .block .actions a:hover, .block .actions a:focus {
 	color: #333;
@@ -5500,7 +5500,7 @@ ol#compare-items li.last {
 }
 #magik-verticalmenu .nav-title {
 	color: #fed102;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	margin: 0;
 	padding: 0px 0px 10px 0px;
@@ -5524,7 +5524,7 @@ ol#compare-items li.last {
 	font-size: 18px;
 	font-weight: bold;
 	color: #fed102;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 #magik-verticalmenu .verticalmenu.navbar-nav .dropdown-menu div.menu-title, #magik-verticalmenu .verticalmenu.navbar-nav .dropdown-menu .title {
 	margin-bottom: 6px;
@@ -5536,7 +5536,7 @@ ol#compare-items li.last {
 	letter-spacing: normal;
 	text-transform: none;
 	border-bottom: 1px #ddd dashed;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 #magik-verticalmenu .verticalmenu.navbar-nav .dropdown-menu .title {
 	margin: 0;
@@ -5563,7 +5563,7 @@ ol#compare-items li.last {
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #fff;
 	font-size: 14px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 #magik-verticalmenu .verticalmenu.navbar-nav > li:first-child a {
@@ -5726,7 +5726,7 @@ ol#compare-items li.last {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 #mgkquickview1 {
@@ -5738,7 +5738,7 @@ ol#compare-items li.last {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 #mgkquickview2 {
@@ -5750,7 +5750,7 @@ ol#compare-items li.last {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 #mgkquickview3 {
@@ -5762,7 +5762,7 @@ ol#compare-items li.last {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 .product-shop .social {
@@ -5906,7 +5906,7 @@ ol#compare-items li.last {
 	padding-right: 5px;
 }
 .btn-edit:hover {
-	color: #f23534;
+	color: #333333;
 }
 button.button.continue:before {
 	content: "\f061";
@@ -5999,7 +5999,7 @@ button.button.view-all:before {
 .edit-bnt:hover {
 	font-size: 12px;
 	padding: 0px;
-	color: #f23534;
+	color: #333333;
 }
 .edit-bnt span {
 	display: none;
@@ -6008,7 +6008,7 @@ button.button.view-all:before {
 	float: left;
 }
 .button {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	border: 1px #ddd solid;
 	background: #fff;
 	padding: 7px 12px;
@@ -6016,8 +6016,8 @@ button.button.view-all:before {
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .button:hover {
-	border: 1px solid #f23534;
-	background: #f23534;
+	border: 1px solid #333333;
+	background: #333333;
 	padding: 7px 12px;
 	color: #FFF;
 }
@@ -6058,7 +6058,7 @@ button.button span {
 }
 .cat-img-title .cat-heading {
 	font-size: 40px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold
 }
 .cat-img-title p {
@@ -6074,7 +6074,7 @@ button.button span {
 	line-height: 1em;
 	margin-bottom: 1px;
 	padding: 0.25em 0.5em;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .category-description .slider-items-products .owl-buttons .owl-next {
 	position: absolute;
@@ -6085,8 +6085,8 @@ button.button span {
 	background: #fff;
 }
 .category-description .slider-items-products .owl-buttons a:hover {
-	background: #f23534;
-	border-color: #f23534
+	background: #333333;
+	border-color: #333333
 }
 .category-description .slider-items-products .owl-buttons .owl-next a:before {
 	font-size: 24px;
@@ -6129,7 +6129,7 @@ button.button span {
 }
 .page-title h1, .page-title h2 {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
@@ -6142,7 +6142,7 @@ button.button span {
 }
 .category-title h1 {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
@@ -6188,7 +6188,7 @@ button.button span {
 	z-index: 2;
 	color: #fff;
 	cursor: default;
-	background-color: #f23534;
+	background-color: #333333;
 	border: none;
 }
 
@@ -6291,14 +6291,14 @@ a.button-asc.left span {
 	border-left: none;
 }
 #sort-by li li a:hover {
-	color: #f23534
+	color: #333333
 }
 #sort-by li:hover {
 	background-color: #fff;
 }
 #sort-by li li:hover {
 	background-color: #fff;
-	color: #f23534;
+	color: #333333;
 }
 #sort-by ul ul {
 	position: absolute;
@@ -6370,7 +6370,7 @@ a.button-asc.left span {
 	border-top: 0px #F0F0F0 solid;
 }
 #limiter li li a:hover {
-	color: #f23534;
+	color: #333333;
 }
 #limiter li:hover {
 	color: #fff;
@@ -6490,7 +6490,7 @@ a.button-asc.left span {
 }
 .category-products .products-grid .col-item:hover .actions-links {
 	height: 30px;
-	background: #f23534;
+	background: #333333;
 	position: absolute;
 	top: 30%;
 	width: 60%;
@@ -6508,7 +6508,7 @@ a.button-asc.left span {
 	color: #000;
 	font-weight: normal;
 	text-align: left;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .products-list .product-name a:hover {
 	text-decoration: none;
@@ -6662,10 +6662,10 @@ li .list {
 	margin: 0;
 	padding: 8px 14px;
 	text-decoration: none;
-	background-color: #f23534;
+	background-color: #333333;
 	color: #FFFFFF;
 	display: inline-block;
-	border: 1px solid #f23534;
+	border: 1px solid #333333;
 	margin-right: 8px;
 	line-height: 20px;
 }
@@ -6676,10 +6676,10 @@ li .list {
 	margin: 0;
 	padding: 8px 12px;
 	text-decoration: none;
-	background-color: #f23534;
+	background-color: #333333;
 	color: #FFFFFF;
 	display: inline-block;
-	border: 1px solid #f23534;
+	border: 1px solid #333333;
 }
 #products-list .product-shop .actions button.button.btn-cart {
 	margin: auto;
@@ -6692,9 +6692,9 @@ li .list {
 	text-transform: uppercase
 }
 #products-list .product-shop .btn-cart:hover {
-	background: #f23534;
+	background: #333333;
 	color: #fff;
-	border: 1px solid #f23534;
+	border: 1px solid #333333;
 }
 #products-list .product-shop .btn-cart span:hover {
 	text-transform: uppercase;
@@ -6819,7 +6819,7 @@ li .list {
 	padding: 2px 0px;
 	position: relative;
 	display: block;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	border-bottom: 1px solid #ccc;
@@ -6929,13 +6929,13 @@ a.button.view-all {
 	transition: all 0.3s linear;
 	vertical-align: top;
 	border: 1px solid #ddd;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 .button.view-all:hover {
-	background: #f23534;
+	background: #333333;
 	transition: all 0.3s linear;
-	border: 1px solid #f23534;
+	border: 1px solid #333333;
 	color: #fff;
 	text-decoration: none;
 }
@@ -7061,16 +7061,16 @@ a.button.view-all {
 }
 .product-tabs li.active a {
 	color: #0a3151;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	padding: 12px;
 	border: none;
-	border-bottom: 3px solid #f23534;
+	border-bottom: 3px solid #333333;
 }
 .product-tabs li.active a:hover {
 	background: none repeat scroll 0 0 #fff;
 	color: #0a3151;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	padding: 12px;
 	border: none;
@@ -7093,7 +7093,7 @@ a.button.view-all {
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	border: none;
-	border-bottom: 4px solid #f23534;
+	border-bottom: 4px solid #333333;
 	background: #f8f8f8
 }
 .tab-content {
@@ -7106,7 +7106,7 @@ a.button.view-all {
 	line-height: 42px;
 	text-transform: uppercase;
 	color: #333;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	height: 42px;
 	padding: 12px;
@@ -7204,10 +7204,10 @@ fieldset {
 	padding: 6px 15px 6px 12px;
 }
 .form-add-tags button.button:hover {
-	background: #f23534;
+	background: #333333;
 	transition: all 0.3s linear;
 	color: #fff;
-	border: 1px #f23534 solid;
+	border: 1px #333333 solid;
 }
 .data-table thead th, .data-table thead td, .data-table tfoot th, .data-table tfoot td, .cart .totals table th, .cart .totals table td {
 	color: #333;
@@ -7239,7 +7239,7 @@ fieldset {
 .data-table .price {
 	font-size: 13px;
 	font-weight: normal;
-	color: #f23534
+	color: #333333
 }
 .data-table .total-price .price, .cart .totals table tfoot td .price, .compare-table .price {
 	color: #333;
@@ -7422,7 +7422,7 @@ fieldset {
 	position: absolute;
 	right: 15px;
 	margin-top: 0px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold
 }
@@ -7443,7 +7443,7 @@ fieldset {
 	font-weight: bold
 }
 .availability.out-of-stock {
-	background: #f23534;
+	background: #333333;
 	color: #fff;
 	border-radius: 15px;
 	padding: 3px 10px
@@ -7481,7 +7481,7 @@ fieldset {
 /* Add to Cart */
 
 .add-to-cart label {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #333;
 	font-size: 12px;
 	font-weight: bold;
@@ -7512,8 +7512,8 @@ fieldset {
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .custom button.items-count:hover {
-	background-color: #f23534;
-	border: 1px #f23534 solid;
+	background-color: #333333;
+	border: 1px #333333 solid;
 	color: #fff;
 }
 .add-to-cart button.button {
@@ -7600,7 +7600,7 @@ fieldset {
 	margin: 0;
 }
 .add-to-links span {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	margin-left: 5px;
 	text-transform: uppercase;
@@ -7640,7 +7640,7 @@ fieldset {
 }
 .product-next-prev .product-prev:hover {
 	color: #fff;
-	background: #f23534;
+	background: #333333;
 }
 .product-next {
 	margin: 0 0 0 4px;
@@ -7664,7 +7664,7 @@ fieldset {
 }
 .product-next-prev .product-next:hover {
 	color: #fff;
-	background: #f23534;
+	background: #333333;
 	border-radius: 2px
 }
 
@@ -7723,9 +7723,9 @@ fieldset {
 	padding: 0px 0px 8px !important;
 }
 .one-page-checkout .active .step-title h3 {
-	color: #f23534;
+	color: #333333;
 	font-size: 13px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 .one-page-checkout .step-title h3 {
@@ -7734,7 +7734,7 @@ fieldset {
 	text-align: left;
 	line-height: 35px;
 	font-size: 13px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #333;
 	font-weight: bold;
 }
@@ -7744,7 +7744,7 @@ fieldset {
 	padding-top: 0px;
 	text-align: left;
 	line-height: 32px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	border-top: none;
 }
 .contacts-index li#billing-new-address-form {
@@ -7830,12 +7830,12 @@ select#shipping-address-select:focus {
 	padding: 10px 13px;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 .one-page-checkout .active .step-title .number {
-	background: none repeat scroll 0 0 #f23534;
-	border: 1px solid #f23534;
+	background: none repeat scroll 0 0 #333333;
+	border: 1px solid #333333;
 	color: #fff;
 	padding: 10px 12px;
 	font-weight: bold;
@@ -7963,7 +7963,7 @@ form-list label.required em {
 .header-container .logout {
 	float: right;
 	margin-top: 20px;
-	font-family: DIN, Helvetica, Arial, sans-serif
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif
 }
 .header-container .logout a {
 	color: #333;
@@ -8000,7 +8000,7 @@ form-list label.required em {
 	text-transform: uppercase;
 	background-color: #fff;
 	border-bottom: 1px solid #ddd;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
@@ -8012,8 +8012,8 @@ form-list label.required em {
 }
 .checkout-progress li.active {
 	background-color: #fff;
-	border-bottom: 1px solid #f23534;
-	color: #f23534;
+	border-bottom: 1px solid #333333;
+	color: #333333;
 }
 /* Multiple Addresses Checkout */
 #multiship-addresses-table input.input-text {
@@ -8043,7 +8043,7 @@ form-list label.required em {
 #multiship-addresses-table .btn-remove:hover {
 	background-image: none;
 	padding: 12px 15px;
-	color: #f23534;
+	color: #333333;
 }
 .multiple_addresses .buttons-set {
 	margin: 10px 0;
@@ -8100,7 +8100,7 @@ form-list label.required em {
 .page-title_multi h2 {
 	font-size: 24px;
 	float: left;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	color: #000;
 	font-weight: bold;
 	margin-top: auto;
@@ -8236,7 +8236,7 @@ form-list label.required em {
 .totals h3 {
 	border-bottom: 1px solid #ddd;
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	margin-bottom: 5px;
 	padding: 10px 0;
@@ -8258,7 +8258,7 @@ form-list label.required em {
 }
 #shopping-cart-totals-table .price {
 	font-size: 14px;
-	color: #f23534
+	color: #333333
 }
 #shipping-zip-form p {
 	margin: 2px 0 4px;
@@ -8299,7 +8299,7 @@ input#region {
 	margin-bottom: 15px;
 	border-bottom: 1px #ddd solid;
 	padding: 10px 0;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	margin-top: auto;
 }
@@ -8364,7 +8364,7 @@ input#coupon_code {
 }
 #shopping-cart-table a.remove-item:hover {
 	padding: 0px;
-	color: #f23534;
+	color: #333333;
 }
 #shopping-cart-table .remove-item span span {
 	display: none;
@@ -8418,7 +8418,7 @@ input#coupon_code {
 	margin: 0;
 }
 button.button.btn-proceed-checkout {
-	background: #f23534;
+	background: #333333;
 	padding: 20px 5px;
 	color: #fff;
 	width: 100%;
@@ -8452,7 +8452,7 @@ button.button.btn-proceed-checkout span {
 /*================== 24. Wishlist Table ===================*/
 
 #wishlist-table .product-name {
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: normal;
 	margin: 0;
@@ -8493,7 +8493,7 @@ button.button.btn-proceed-checkout span {
 }
 #wishlist-table a.remove-item:hover {
 	padding: 6px 11px;
-	color: #f23534;
+	color: #333333;
 	background-color: #fff;
 	border: none;
 	transition: all 0.3s linear;
@@ -8533,7 +8533,7 @@ button.button.btn-proceed-checkout span {
 	margin-bottom: 8px;
 	padding: 0;
 	color: #fff;
-	background: none repeat scroll 0 0 #f23534;
+	background: none repeat scroll 0 0 #333333;
 	border-radius: 2px;
 	font-size: 16px;
 	height: 30px;
@@ -8558,7 +8558,7 @@ button.button.btn-proceed-checkout span {
 }
 #wishlist-table button.button.btn-cart:hover {
 	padding: 0px;
-	color: #f23534;
+	color: #333333;
 	background-color: #fff;
 	border: none;
 	transition: all 0.3s linear;
@@ -8667,7 +8667,7 @@ button.button.btn-proceed-checkout span {
 	font-size: 13px;
 	color: #333;
 	margin-bottom: 15px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase
 }
@@ -8717,7 +8717,7 @@ button.button.btn-proceed-checkout span {
 	font-weight: normal;
 	margin-bottom: 4em;
 	text-transform: none;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .page-not-found h3 img {
 	margin-right: 8px;
@@ -8730,8 +8730,8 @@ button.button.btn-proceed-checkout span {
 	margin-bottom: 0.75em;
 }
 .page-not-found .btn-home:hover {
-	background-color: #0b5ead;
-	box-shadow: 0 -4px 0 0 #0b5ead  inset;
+	background-color: #65a82b;
+	box-shadow: 0 -4px 0 0 #65a82b  inset;
 	}
 .page-not-found .btn-home {
 	background-color: #000;
@@ -8740,7 +8740,7 @@ button.button.btn-proceed-checkout span {
 	box-shadow: 0 -4px 0 0 #000  inset;
 	color: #FFF;
 	cursor: pointer;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	padding: 14px 35px;
 	text-decoration: none;
@@ -8778,7 +8778,7 @@ button.button.btn-proceed-checkout span {
 }
 #toTop:hover {
 	color: #fff;
-	background-color: #f23534;
+	background-color: #333333;
 }
 
 
@@ -8793,7 +8793,7 @@ button.button.btn-proceed-checkout span {
 }
 
 .footer-top {
-	background-color: #0b5ead;
+	background-color: #65a82b;
 	clear: both;
 	margin-bottom: 20px;
 	overflow: hidden;
@@ -8836,7 +8836,7 @@ button.button.btn-proceed-checkout span {
 	top: 20px;
 	height: 30px;
 	margin-top: 35px;
-	background: #f23534
+	background: #333333
 }
 #brand-logo-slider .flex-prev {
 	position: absolute;
@@ -8851,7 +8851,7 @@ button.button.btn-proceed-checkout span {
 	top: 20px;
 	height: 30px;
 	margin-top: -25px;
-	background: #f23534
+	background: #333333
 }
 .brand-logo .slider-items-products .owl-buttons a {
 	border: none;
@@ -8892,7 +8892,7 @@ button.button.btn-proceed-checkout span {
 	font-weight: bold;
 	margin-right: 8px;
 	color: #fff;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 }
 .newsletter input[type="text"] {
 	background: #FFFFFF;
@@ -8905,19 +8905,19 @@ button.button.btn-proceed-checkout span {
 	border: none;
 	padding-left: 10px;
 	font-size: 13px;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	border: none;
 	margin: 0 10px 0px 0;
 }
 button.subscribe {
-	background: #fdd922;
+	background: #333;
 	border: 0 none;
 	overflow: hidden;
 	padding: 9px 13px;
 	cursor: pointer;
 	font-weight: normal;
-	color: #222;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	color: #fff;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
@@ -9144,7 +9144,7 @@ button.subscribe:before {
 }
 .footer-middle h4 {
 	color: #000;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0;
@@ -9164,7 +9164,7 @@ button.subscribe:before {
 	transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .footer-middle .links li a:hover {
-	color: #f23534;
+	color: #333333;
 	text-decoration: none;
 }
 .footer-middle .links li a:before {
@@ -9181,7 +9181,7 @@ button.subscribe:before {
 	content: "\f041";
 	font-family: FontAwesome;
 	font-size: 15px;
-	color: #f23534;
+	color: #333333;
 	height: 35px;
 	width: 35px;
 	line-height: 35px;
@@ -9198,7 +9198,7 @@ button.subscribe:before {
 	content: "\f0e0";
 	font-family: FontAwesome;
 	font-size: 14px;
-	color: #f23534;
+	color: #333333;
 	height: 35px;
 	width: 35px;
 	margin-right: 5px;
@@ -9215,7 +9215,7 @@ button.subscribe:before {
 	content: "\f095";
 	font-family: FontAwesome;
 	font-size: 15px;
-	color: #f23534;
+	color: #333333;
 	height: 35px;
 	width: 35px;
 	margin-right: 5px;
@@ -9299,7 +9299,7 @@ button.subscribe:before {
 	top: 35%;
 	width: 28%;
 	z-index: 100000;
-	background: #f23534;
+	background: #333333;
 	position: fixed;
 }
 .popup1 .x {
@@ -9313,7 +9313,7 @@ button.subscribe:before {
 }
 .newsletter-sign-box h3 {
 	color: #fff;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 15px;
@@ -9434,10 +9434,10 @@ button.subscribe:before {
 	height: 41px;
 }
 .new_title h2 {
-	border-bottom: 3px solid #df2524;
+	border-bottom: 3px solid #000;
 	color: #fff;
 	display: inline-block;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: normal;
@@ -9445,7 +9445,7 @@ button.subscribe:before {
 	padding: 13px 20px 10px 20px;
 	position: relative;
 	text-transform: uppercase;
-	background: #f23534}
+	background: #333333}
 /* Title-new */
 
 .label {
@@ -9463,7 +9463,7 @@ button.subscribe:before {
 .featured_title h2 {
 	color: #fff;
 	display: inline-block;
-	font-family: DIN, Helvetica, Arial, sans-serif;
+	 font-family: 'Noto Sans TC', 微軟正黑體, DIN, Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: normal;
@@ -10482,6 +10482,18 @@ nav {
 	font-family: FontAwesome;
 	font-size: 13px;
 	padding-right: 6px
+}
+.toplinks>div>div.orderquery>a:before {
+        content: '\f022';
+        font-family: FontAwesome;
+        font-size: 13px;
+        padding-right: 6px
+}
+.toplinks>div>div.shoppingcart>a:before {
+        content: '\f07a';
+        font-family: FontAwesome;
+        font-size: 13px;
+        padding-right: 6px
 }
 .toplinks>div>div.wishlist>a:before {
 	content: '\f004';
